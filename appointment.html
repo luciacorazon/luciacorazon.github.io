@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles-appointment.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <title>Solicitar Turno</title>
+</head>
+<body>
+  <header class="header">
+    <img class="header__logo" src="logo.png" alt="Logo" />
+    <input type="checkbox" class="header__checkbox" id="open-menu" />
+    <label for="open-menu" class="header__open-nav-button">☰</label>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form class="form">
+    <h2>Solicitar turno</h2>
+
+    <div class="form-input">
+      <label for="name">Nombre completo</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" required />
+    </div>
+
+    <div class="form-input">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required />
+    </div>
+
+    <div class="form-input">
+      <label for="stylist">Peluquero</label>
+      <select id="stylist" name="stylist">
+        <option value="mariano">Mariano Lopez</option>
+        <option value="emilia">Emilia Rodriguez</option>
+      </select>
+    </div>
+
+    <div class="form-input">
+      <label for="service">Tipo de servicio</label>
+      <select id="service" name="service">
+        <option value="corte">Corte</option>
+        <option value="lavado">Lavado</option>
+        <option value="tintura">Tintura</option>
+      </select>
+    </div>
+
+    <div class="form-input">
+      <label for="date">Día</label>
+      <input type="date" id="date" name="date" required />
+    </div>
+
+    <div class="form-input">
+      <label for="time">Horario</label>
+      <input type="time" id="time" name="time" required />
+    </div>
+
+    <div class="form-input">
+      <button type="submit" class="button">Solicitar</button>
+    </div>
+  </form>
+
+  <footer>
+    <strong>SANTIAGO</strong> - © 2025
+  </footer>
+</body>
+</html>

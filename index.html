@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>PELUQUERIA EJEMPLO</title>
+</head>
+<body>
+    <video autoplay loop muted playsinline class="video-background">
+        <source src="fondo.mp4" type="video/mp4">
+    </video>
+    <a class="wsp" href="https://wa.me/5491123284112?text=Hola%20quiero%20informacion" target="_blank">
+        <img class="wsp__img" src="wsplogo.webp" alt="">
+    </a>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">☰</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="logo.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#home">Home</a></li>
+                <li class="header__nav-item"><a href="#appointment">Turnos</a></li>
+                <li class="header__nav-item"><a href="#about">Nosotros</a></li>
+                <li class="header__nav-item"><a href="#jobs">Nuestros trabajos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home" id="home">
+        <div class="home__container">
+            <h1 class="home__title">Bienvenidos a peluqueria ejemplo</h1>
+            <p class="home__content">Los mejores cortes al mejor precio</p>
+        </div>
+    </main>
+    <section class="appointment" id="appointment">
+        <div class="appointment__container">
+            <h2 class="appointment__title">Pedi tu turno</h2>
+            <a href="appointment.html">
+                <button class="appointment__button">PEDIR</button>
+
+            </a>
+        </div>
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about__container">
+            <h2 class="about__title" >Sobre nosotros</h2>
+            <p class="about__content">Somos una peluqueria especializada hace 10 anos con estudios en la universidad de los pelos. Nuestros altamente capacitados empleados saben lo que hacen y como lo hacen.  Todos nuestros clientes son felices cuando vienen aca</p>
+        </div>
+    </section>
+        <section class="jobs" id="jobs">
+            <h2 class="jobs__title">Nuestros trabajos</h2>
+            <div class="jobs__project-container">
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 1" class="jobs__project-image">
+                </div>
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 2" class="jobs__project-image">
+                </div>
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 3" class="jobs__project-image">
+                </div>
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 3" class="jobs__project-image">
+                </div>
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 3" class="jobs__project-image">
+                </div>
+                <div class="jobs__project">
+                    <img src="corte1.jpg" alt="Job 3" class="jobs__project-image">
+                </div>
+            </div>
+    </section>
+    <footer>
+        <strong>SANTIAGO</strong> - Copyright
+    </footer>
+</body>
+</html>
