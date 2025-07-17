@@ -120,7 +120,6 @@ h2 {
     box-shadow: 0 0 20px #fff2;
     padding: 20px;
     margin: 30px auto;
-
 }
 
 .form-input {
@@ -143,6 +142,9 @@ select {
     color: #ddd;
     border-radius: 4px;
     font-size: 1em;
+    -webkit-appearance: none; /* Remove default browser styling for better control */
+    -moz-appearance: none;
+    appearance: none;
 }
 
 option {
