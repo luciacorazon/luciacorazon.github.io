@@ -176,7 +176,7 @@ body, div, ul, nav, header, footer, a, li, label{
 .home__title {
     text-align: center;
     color: #fffa;
-    font-size: 3.8rem;
+    font-size: 2.5rem;
     filter: drop-shadow(0px 0px 20px #48e)
     drop-shadow(0px 0px 4px #48e);
     animation: parpadear 6s infinite alternate backwards;
@@ -240,7 +240,7 @@ body, div, ul, nav, header, footer, a, li, label{
 
 .appointment__title {
     color: #fffb;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 30px; 
     text-shadow: 0px 0px 20px #000;
     animation: aparecer both;
@@ -260,7 +260,7 @@ body, div, ul, nav, header, footer, a, li, label{
     position: relative;
     border: 3px solid #48e;
     overflow: hidden;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     cursor: pointer; 
     transition: color 0.3s ease; 
     box-shadow: 0px 0px 20px #000;;    
@@ -321,7 +321,7 @@ body, div, ul, nav, header, footer, a, li, label{
     animation: aparecer-izquierda both;
     animation-timeline: view();
     animation-range: cover 20% contain 50%;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 15px; 
     position: relative;
 
@@ -332,7 +332,7 @@ body, div, ul, nav, header, footer, a, li, label{
     animation: aparecer-derecha both;
     animation-timeline: view();
     animation-range: cover 20% contain 50%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.6; 
 }
 
@@ -361,7 +361,7 @@ body, div, ul, nav, header, footer, a, li, label{
     animation-timeline: view();
     animation-range: cover 20% contain 50%;
     color: #fffb;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 20px; 
 }
 
